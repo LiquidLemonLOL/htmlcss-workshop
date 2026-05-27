@@ -39,6 +39,15 @@ h1 {
     margin: 20px 0;
 }
 
+/* flexwrapper stylesheet */
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* button stylesheet */
 .button {
     background-color: lightblue;
