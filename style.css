@@ -106,6 +106,7 @@ h1 {
     width: 100px;
     height: 100px;
     margin: auto;
+    object-fit: fill;
 }
 
 /* header navigation stylesheet */
