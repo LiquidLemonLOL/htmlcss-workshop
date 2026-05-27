@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+        <title>HTML/CSS Workshop</title>
+	</head>
+	<body>
+        <!-- Header + navbar section-->
+         <header>
+            <div class="headnav">
+                <div class="navbar">
+                    <img src="img\github.png" alt="Github Logo"/>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- About section -->
+         <section id="about">
+            <h1>Portfolio: Oscar Wallin</h1>
+            <p>Welcome to my portfolio! I am a full-stack developer with a focus upon HTML/CSS/JS/React within Frontend, and Node.js/Java/Spring/Spring Boot within the backend. </p> &nbsp;
+         </section>
+        <!-- Projects section -->
+         <section id="projects">
+            <h2>Projects</h2> &nbsp;
+            <p>Here is a list of my projects, available on my <a href="https://github.com/LiquidLemonLOL">GitHub Profile</a>:</p> &nbsp;
+            <div class="cardcontainer">
+                <div class="card">
+                    <div id="gitlogo"><img src="img/github.png" alt="GitHub Logo"></div>
+                    <h4><b><a href="https://github.com/LiquidLemonLOL/my-first-project">My first project</a></b></h4>
+                    <p>Git-prep</p>
+                </div>
+                <div class="card">
+                    <div id="gitlogo"><img src="img/github.png" alt="GitHub Logo"></div>
+                    <h4><b><a href="https://github.com/LiquidLemonLOL/html-exercises">HTML Exercises</a></b></h4>
+                    <p>HTML/CSS</p>
+                </div>            
+            </div>
+            &nbsp;
+            
+            
+         </section>
+        <!-- Contact section -->
+         <section id="Contact">
+            <h2>Contact</h2>  &nbsp;
+            <form>
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea><br><br>
+                <button class="button" type="submit">Send Message</button>
+            </form>
+         </section>
+         <br>
+         <hr/>
+         <br>
+         <!-- Footer section -->
+         <footer>
+            <p>&copy; 2026 Oscar Wallin. All rights reserved.</p>
+         </footer>
+	</body>
+</html>
